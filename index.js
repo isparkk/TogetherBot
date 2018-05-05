@@ -12,5 +12,5 @@ client.on('message', message => {
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
-client.login("NDQyMzIzMjQ2MTU1ODI1MTcz.Dc9JLw.rlrTitMyjaxsfMxy9N4LuU-5l_E");
+
+client.login(process.env.BOT_TOKEN);
